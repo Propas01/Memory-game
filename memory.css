@@ -1,0 +1,72 @@
+table{
+    width:500px;
+    height:400px;
+    border: 1px solid black;
+    gap:10px
+}
+td{
+    width:100px;
+    height:100px;
+    background: red;
+    color:red;
+    font-size:30px;
+}
+#progress-bar{
+display:flex;
+margin-top:20px;
+width:500px;
+height:40px;
+background:grey;
+border-radius:10px
+}
+.progressBarPart{
+width:50px;
+height:40px;
+background:blue;
+border-radius: 0;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px;
+}
+.progressBarPart:nth-child(2){   
+    border-radius:0
+}
+.progressBarPart:nth-child(3){   
+    border-radius:0
+}
+.progressBarPart:nth-child(4){   
+    border-radius:0
+}
+.progressBarPart:nth-child(5){   
+    border-radius:0
+}
+.progressBarPart:nth-child(6){   
+    border-radius:0
+}
+.progressBarPart:nth-child(7){   
+    border-radius:0
+}
+
+.progressBarPart:nth-child(8){   
+    border-radius:0
+}
+.progressBarPart:nth-child(9){   
+    border-radius:0
+}
+.progressBarPart:nth-child(10){ 
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+.time{
+    background:blueviolet;
+    width:200px;
+    height:50px;
+    color:white;
+    position: absolute;
+    left:700px;
+    top:50px;
+    border-radius:20px;
+    font-size:40px;
+    text-align:center
+}
